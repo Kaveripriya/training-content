@@ -14,7 +14,15 @@
     - Composablity: Using services as building blocks, sophisticated and complex operations.
     - ![Image for SOA](https://github.com/201019-UiPath/training-code/blob/main/images/SOA.png)
 - Advantages of SOA: Service Resuablity, Easy maintainance, Platform independance, Availibilty, reliability, Scalability
-- Disadvantages of SOA: load balancing, High costs and investments involved, High Overload could also because of network latency
+- Disadvantages of SOA: load balancing, High costs and investments involved, High Overload could also because of network latency.
+- ***Framework of SOA ***
+- Five layers
+    - **Consumer Interface Layer ** - It is a GUI based app for the end-user reaching their applications
+    - **Buisiness Process Layer ** - These are the buisiness - use cases in words of application
+    - **Service Layer ** - This is a full- industry, in-service table
+    - **Service Component Layer **- These are managed to develop the services
+    - **Operational System Layer **- It holds the data Pattern .
+    
 - SOA can be implemented in 2 ways:
     - [SOAP Service](https://www.guru99.com/soap-simple-object-access-protocol.html)-> a web service which uses XML format when it comes to exchanging of messages over various protocols (Http(s), TCP, MSMQ, named Pipes).
         - In .Net Framework use [WCF](https://www.tutorialspoint.com/wcf/wcf_architecture.htm) (Windows Communication Foundation) or [Asp.Net web Service](https://www.javatpoint.com/web-services-in-c-sharp)(old version of SOAP in .Net, before WCF came)
